@@ -1,0 +1,112 @@
+/* .banner-image {
+	position: relative;
+}
+
+.banner-text {
+	display: flex;
+	position: absolute;
+	justify-content: end;
+	align-items: center;
+	right: 0;
+} */
+
+:root {
+	--accent: #ff950d;
+}
+
+/* .menubar {
+	background: rgba(0, 0, 0, 0.2);
+} */
+
+.brand-name {
+	color: var(--accent);
+}
+
+.banner-text {
+	letter-spacing: 3px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.services {
+	margin-bottom: 10em;
+}
+
+.len {
+	margin-top: -100px;
+}
+
+.lens {
+	box-sizing: border-box;
+	border: 30px solid gainsboro;
+}
+
+.underlapped {
+	/* z-index: -1; */
+}
+.team {
+	/* margin-top: -100px; */
+	margin-bottom: -320px;
+	margin-right: -300px;
+	z-index: 2;
+}
+
+.overlapped {
+	z-index: 1;
+}
+
+.service {
+	border: 1px solid black;
+}
+
+.service:hover {
+	cursor: pointer;
+	border: none;
+	border-right: 3px solid var(--accent);
+	box-shadow: -10px -10px 5px 0px #d8d2d5;
+}
+
+.input-box {
+	outline: none;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.overlap {
+	margin-left: -200px;
+	margin-top: -100px;
+	/* height: 350px; */
+	background-color: white;
+}
+
+/* .navbar {
+	background-color: rgba(0, 0, 0, 0.1);
+} */
+
+.lens-text {
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: 0.5s;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.lens-text:hover {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+	.overlap {
+		margin: 0;
+	}
+}
