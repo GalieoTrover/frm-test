@@ -1,22 +1,6 @@
-/* .banner-image {
-	position: relative;
-}
-
-.banner-text {
-	display: flex;
-	position: absolute;
-	justify-content: end;
-	align-items: center;
-	right: 0;
-} */
-
 :root {
 	--accent: #ff950d;
 }
-
-/* .menubar {
-	background: rgba(0, 0, 0, 0.2);
-} */
 
 .brand-name {
 	color: var(--accent);
@@ -43,18 +27,10 @@
 	border: 30px solid gainsboro;
 }
 
-.underlapped {
-	/* z-index: -1; */
-}
 .team {
-	/* margin-top: -100px; */
 	margin-bottom: -320px;
 	margin-right: -300px;
 	z-index: 2;
-}
-
-.overlapped {
-	z-index: 1;
 }
 
 .service {
@@ -80,13 +56,8 @@
 .overlap {
 	margin-left: -200px;
 	margin-top: -100px;
-	/* height: 350px; */
 	background-color: white;
 }
-
-/* .navbar {
-	background-color: rgba(0, 0, 0, 0.1);
-} */
 
 .lens-text {
 	background: rgba(0, 0, 0, 0.6);
